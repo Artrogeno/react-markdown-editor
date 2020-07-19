@@ -9,7 +9,7 @@ export default createGlobalStyle`
 
   :root {
     --font-roboto: 'Roboto', sans-serif;
-    --primaty: ${props => props.theme.colors.primaty};
+    --primary: ${props => props.theme.colors.primary};
     --secondary: ${props => props.theme.colors.secondary};
     --success: ${props => props.theme.colors.success};
     --danger: ${props => props.theme.colors.danger};
@@ -26,6 +26,9 @@ export default createGlobalStyle`
     --theme_300: ${props => props.theme.colors.theme_300};
     --theme_400: ${props => props.theme.colors.theme_400};
     --theme_500: ${props => props.theme.colors.theme_500};
+
+    --container-title-h: 4rem;
+    --title-h: 4rem;
   }
 
   ::-webkit-scrollbar {
