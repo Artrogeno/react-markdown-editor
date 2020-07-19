@@ -1,6 +1,6 @@
 <p align="center">
   <a href="readme/">
-    <img src="https://github.com/Artrogeno/react-markdown/raw/master/src/assets/images/logo.svg" width=120 height=120 alt="React Markdown" />
+    <img src="https://github.com/Artrogeno/react-markdown-editor/raw/master/src/assets/images/logo.svg" width=120 height=120 alt="React Markdown" />
   </a>
 </p>
 <h3 align="center">
