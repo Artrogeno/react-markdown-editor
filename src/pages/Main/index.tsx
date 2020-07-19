@@ -1,10 +1,19 @@
 import React from 'react'
-import { Container, Title } from './styles'
+
+import EditorProvider from '../../shared/contexts/editor'
+import Marked from '../../shared/components/Marked'
+import Preview from '../../shared/components/Preview'
+import { Container, Wrap } from './styles'
 
 const Main = () => {
   return (
     <Container>
-      <Title>Artrogeno React/Typescript</Title>
+      <Wrap>
+        <EditorProvider>
+          <Marked />
+          <Preview />
+        </EditorProvider>
+      </Wrap>
     </Container>
   )
 }
